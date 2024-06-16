@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.checkout__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.car__container {
+  width: 50%;
+}
+
+.checkoutForm__container {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout__container {
+    flex-direction: column;
+  }
+
+  .car__container {
+    width: 100%;
+  }
+
+  .checkoutForm__container {
+    width: 100%;
+  }
+}
