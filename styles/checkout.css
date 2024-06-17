@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  min-height: 100vh;
 }
 
 .car__container {
@@ -18,9 +19,61 @@
   width: 50%;
 }
 
+/* Car Container section */
+
+.car__container {
+  padding-top: 10%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.car__container .car__description > h5 {
+  color: #a0a0a0;
+  font-weight: bold;
+}
+
+.car__container .car__description > h2 {
+  color: #333;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.car__container > img {
+  width: 70%;
+}
+
+.car__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.car__footer > p {
+  color: #a0a0a0;
+  font-weight: bold;
+}
+
+.car__footer > p > span {
+  color: #646161;
+  font-weight: bold;
+}
+
+/* Checkout form section */
+
+.checkoutForm__container {
+  padding-top: 10%;
+  padding-right: 10%;
+}
+
 @media screen and (max-width: 768px) {
   .checkout__container {
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .car__container {
