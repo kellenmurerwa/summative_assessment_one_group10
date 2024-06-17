@@ -20,6 +20,9 @@
   width: 50%;
   box-shadow: 0 3px 4px rgb(0 0 0 / 0.2);
   padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Car Container section */
@@ -112,7 +115,7 @@
   width: 100%;
   outline: none;
   color: #333;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 .cardInput__container {
