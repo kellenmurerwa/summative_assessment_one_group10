@@ -5,10 +5,60 @@
 }
 
 .container{
-  background-color: darkgrey;
+  background-color: #dddddd;
+  align-items: center;
 }
 
 .car__container{
+  position: relative;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.car-layout{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.list1{
   display: flex;
   flex-direction: row;
+  gap: 50px;
+
+}
+
+.list2{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+button{
+  color: red;
+  background-color: transparent;
+  border: none;
+}
+
+.images{
+  width: 250px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+a.button:hover{
+  color: red;
 }
