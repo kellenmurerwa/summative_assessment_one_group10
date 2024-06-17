@@ -61,6 +61,9 @@ document
       return;
     }
 
+    //clear form
+    document.getElementById("checkoutForm").reset();
+
     // If all validations pass
     alert("Payment successful!");
 

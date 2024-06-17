@@ -16,12 +16,24 @@
         </div>
         <img src="images/car-1.png" alt="Car" />
         <div class="car__footer">
-          <p>Powered by <span>CodeQuintent</span></p>
+          <p>Powered by <span>CodeQuintet</span></p>
         </div>
       </section>
 
       <!-- Checkout form section -->
       <section class="checkoutForm__container">
+        <div class="applePay__container">
+          <button class="applePay__btn" id="applePayBtn">
+            <img src="images/apple-white.png" alt="Apple Pay" />
+            <span>Pay with Apple Pay</span>
+          </button>
+          <!-- OR PAY WITH CARD -->
+          <div class="or__line__container">
+            <div></div>
+            <p>Or pay with card</p>
+            <div></div>
+          </div>
+        </div>
         <form id="checkoutForm">
           <div class="form__group">
             <label for="email">Email</label>
@@ -53,7 +65,7 @@
             </div>
           </div>
           <div class="form__group">
-            <label for="name">Full Name</label>
+            <label for="name">Name on card</label>
             <input
               type="text"
               id="name"
@@ -67,7 +79,7 @@
               type="text"
               id="address"
               name="address"
-              placeholder="e.g: 1234 Main St"
+              placeholder="e.g: KG 560 ST"
             />
           </div>
           <button type="submit">Pay $960.50</button>
