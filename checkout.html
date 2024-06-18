@@ -10,12 +10,81 @@
     <div class="checkout__container">
       <!-- car container section -->
       <section class="car__container">
-        <h1>Car Image and details goes here</h1>
+        <div class="car__description">
+          <h5>Vehicle Reservation</h5>
+          <h2>$960.50</h2>
+        </div>
+        <img src="images/car-1.png" alt="Car" />
+        <div class="car__footer">
+          <p>Powered by <span>CodeQuintet</span></p>
+        </div>
       </section>
 
       <!-- Checkout form section -->
       <section class="checkoutForm__container">
-        <h1>Checkout form goes here</h1>
+        <div class="applePay__container">
+          <button class="applePay__btn" id="applePayBtn">
+            <img src="images/apple-white.png" alt="Apple Pay" />
+            <span>Pay with Apple Pay</span>
+          </button>
+          <!-- OR PAY WITH CARD -->
+          <div class="or__line__container">
+            <div></div>
+            <p>Or pay with card</p>
+            <div></div>
+          </div>
+        </div>
+        <form id="checkoutForm">
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@company.com"
+            />
+          </div>
+          <div class="form__group">
+            <label for="card">Card Details</label>
+            <div class="cardInput__container">
+              <input
+                type="text"
+                id="card"
+                name="card"
+                placeholder="1234 5678 9012 3456"
+              />
+              <img src="images/visa-logo-png-2026.png" alt="Visa" />
+            </div>
+            <div class="form__row">
+              <div class="form__group">
+                <input type="text" id="exp" name="exp" placeholder="MM/YY" />
+              </div>
+              <div class="form__group">
+                <input type="text" id="cvv" name="cvv" placeholder="CVV" />
+              </div>
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="name">Name on card</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="e.g: John Doe"
+            />
+          </div>
+          <div class="form__group">
+            <label for="address">Shipping Address</label>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="e.g: KG 560 ST"
+            />
+          </div>
+          <p class="error__message" id="error-message"></p>
+          <button type="submit">Pay $960.50</button>
+        </form>
       </section>
     </div>
     <script src="scripts/checkout.js"></script>
