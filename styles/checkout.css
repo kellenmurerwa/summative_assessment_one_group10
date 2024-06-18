@@ -209,6 +209,22 @@
   cursor: pointer;
 }
 
+p.error__message {
+  color: #ff4d4d;
+  background-color: #ffe6e6;
+  border: 1px solid #ff4d4d;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+p.error__message:empty {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .checkout__container {
     flex-direction: column;
