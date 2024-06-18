@@ -6,7 +6,9 @@
 
 .container{
   background-color: #dddddd;
-  align-items: center;
+  padding-left: 240px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .car__container{
