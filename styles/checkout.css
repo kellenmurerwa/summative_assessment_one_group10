@@ -11,7 +11,7 @@
   min-height: 100vh;
 }
 
-.car__container {
+.car__container1 {
   width: 50%;
   padding-left: 20%;
 }
@@ -27,7 +27,7 @@
 
 /* Car Container section */
 
-.car__container {
+.car__container1 {
   padding-top: 10%;
   padding-left: 10%;
   display: flex;
@@ -36,18 +36,18 @@
   align-items: flex-start;
 }
 
-.car__container .car__description > h5 {
+.car__container1 .car__description > h5 {
   color: #a0a0a0;
   font-weight: bold;
 }
 
-.car__container .car__description > h2 {
+.car__container1 .car__description > h2 {
   color: #333;
   font-weight: bolder;
   font-size: 2rem;
 }
 
-.car__container > img {
+.car__container1 > img {
   width: 70%;
 }
 
@@ -231,7 +231,7 @@ p.error__message:empty {
     justify-content: flex-start;
   }
 
-  .car__container {
+  .car__container1 {
     width: 100%;
     flex-direction: column-reverse;
   }
@@ -241,7 +241,7 @@ p.error__message:empty {
     padding-left: 0;
   }
 
-  .car__container > img {
+  .car__container1 > img {
     width: 100%;
   }
 

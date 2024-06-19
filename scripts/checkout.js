@@ -77,3 +77,47 @@ document
     // navigate to success.html
     window.location.href = "success.html";
   });
+
+// get car from query params when page loads
+document.addEventListener("DOMContentLoaded", function () {
+  const urlParams = new URLSearchParams(window.location.search);
+  const car = urlParams.get("car");
+
+  const carsData = {
+    1: {
+      image: "images/car-3.jpg",
+      price: "$40705",
+    },
+    2: {
+      image: "images/car-8.jpg",
+      price: "$22050",
+    },
+    3: {
+      image: "images/car-4.jpg",
+      price: "$28855",
+    },
+    4: {
+      image: "images/car-1.png",
+      price: "$28000",
+    },
+    5: {
+      image: "images/car-6.png",
+      price: "$25000",
+    },
+    6: {
+      image: "images/car-7.jpg",
+      price: "$27550",
+    },
+  };
+
+  // selected car or default to car 1
+  const selectedCar = carsData[car] || carsData["1"];
+  // set car image
+  document.getElementById("carImage").src = selectedCar.image;
+  // set car price
+  document.getElementById("carPrice").innerHTML = selectedCar.price;
+  // change submit button text
+  document.getElementById(
+    "submitButton"
+  ).innerHTML = `Pay ${selectedCar.price}`;
+});
