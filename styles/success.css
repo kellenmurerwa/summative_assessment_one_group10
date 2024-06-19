@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.successful-image {
+  margin-left: 535px;
+  margin-top: 100px;
+  width: 180px;
+
+  
+}
+
+
+.First-paragraph{
+  color: rgb(47, 227, 47);
+  font-size: 20px;
+  margin-left: 600px;
+  margin-bottom: 50px;
+}
+
+.Second-paragraph{
+  margin-left: 500px;
+  margin-bottom: 90px;
+
+}
+.Third-paragraph{
+  margin-left: 400px;
+  margin-bottom: 250px;
+}
+.Button-styling{
+  margin-left: 600px;
+  border-radius: 5px;
+  font-size: 15px;
+  
+  
+  
+}
+
