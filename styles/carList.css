@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-.container{
+.carList__container {
   background-color: #dddddd;
   padding-left: 240px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.car__container{
+.car__container {
   position: relative;
   display: inline-block;
   border: 1px solid #ddd;
@@ -20,31 +20,30 @@
   overflow: hidden;
 }
 
-.car-layout{
+.car-layout {
   margin-right: 20px;
   margin-left: 20px;
 }
-.list1{
+.list1 {
   display: flex;
   flex-direction: row;
   gap: 50px;
-
 }
 
-.list2{
+.list2 {
   display: flex;
   flex-direction: row;
   gap: 50px;
   margin-top: 20px;
 }
 
-button{
+button {
   color: red;
   background-color: transparent;
   border: none;
 }
 
-.images{
+.images {
   width: 250px;
   height: 200px;
   border-radius: 5%;
@@ -61,6 +60,6 @@ button{
   transition: transform 0.2s;
 }
 
-a.button:hover{
+a.button:hover {
   color: red;
 }

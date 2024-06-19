@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-.container {
+.header__container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
@@ -39,7 +39,7 @@ body {
 }
 
 .navbar {
-  background:#fff;
+  background: #fff;
   color: #222;
   padding: 15px 0;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 .hero {
-  background: url('../images/slide04.jpg') no-repeat center center/cover;
+  background: url("../images/slide04.jpg") no-repeat center center/cover;
   height: 650px;
   display: flex;
   align-items: center;
@@ -145,42 +145,42 @@ body {
 @media (max-width: 768px) {
   .top-bar .contact-info,
   .top-bar .auth-links {
-      float: none;
-      display: block;
-      text-align: center;
+    float: none;
+    display: block;
+    text-align: center;
   }
 
   .navbar .container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .navbar-links ul {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .navbar-links ul li {
-      margin-left: 0;
-      margin-bottom: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
   }
 
   .hero h1 {
-      font-size: 36px;
+    font-size: 36px;
   }
 
   .hero h2,
   .hero p,
   .hero .btn {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .search-bar .container {
-      flex-direction: column;
-      align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .search-bar select,
   .search-bar .btn-search {
-      width: 100%;
-      margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
