@@ -12,7 +12,7 @@ Required Fields:
 Full Name: Accepts letters and spaces only.
 Email: Validates email format.
 Shipping Address: Allows alphanumeric characters, commas, periods, and hyphens for complete address details.
-Credit Card Number: Validates credit card number format using Luhn's Algorithm (JavaScript implementation).
+Credit Card Number: Validates credit card number format.
 CVV: Accepts 3 or 4 digits for the Card Verification Value.
 Expiration Date: Validates date format (DD-MM-YY) and checks for expired cards using JavaScript.
 
