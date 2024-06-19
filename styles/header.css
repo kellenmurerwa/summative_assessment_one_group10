@@ -39,17 +39,21 @@ body {
 }
 
 .navbar {
-  background: #fff;
+  background:#fff;
   color: #222;
   padding: 15px 0;
 }
 
-.navbar .container {
+.navbar .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.navbar-brand{
+ text-decoration: none;
+ color: #222;
 
+}
 .navbar-brand h1 {
   margin: 0;
   font-size: 24px;
@@ -69,15 +73,17 @@ body {
 
 .navbar-links ul li {
   margin-left: 20px;
+  
 }
 
 .navbar-links ul li a {
   color: #222;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .hero {
-  background: url("../images/slide04.jpg") no-repeat center center/cover;
+  background: url('../images/slide04.jpg') no-repeat center center/cover;
   height: 650px;
   display: flex;
   align-items: center;
@@ -103,11 +109,12 @@ body {
 }
 
 .hero p {
-  margin: 5px 0;
+  margin: 10px 10px;
   font-size: 18px;
 }
 
 .hero .btn {
+
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
@@ -123,7 +130,7 @@ body {
   padding: 20px 0;
 }
 
-.search-bar .container {
+.search-bar .header__container {
   display: flex;
   justify-content: space-between;
 }
@@ -145,42 +152,42 @@ body {
 @media (max-width: 768px) {
   .top-bar .contact-info,
   .top-bar .auth-links {
-    float: none;
-    display: block;
-    text-align: center;
+      float: none;
+      display: block;
+      text-align: center;
   }
 
-  .navbar .container {
-    flex-direction: column;
+  .navbar .header__container {
+      flex-direction: column;
   }
 
   .navbar-links ul {
-    flex-direction: column;
+      flex-direction: column;
   }
 
   .navbar-links ul li {
-    margin-left: 0;
-    margin-bottom: 10px;
+      margin-left: 0;
+      margin-bottom: 10px;
   }
 
   .hero h1 {
-    font-size: 36px;
+      font-size: 36px;
   }
 
   .hero h2,
   .hero p,
   .hero .btn {
-    font-size: 16px;
+      font-size: 16px;
   }
 
-  .search-bar .container {
-    flex-direction: column;
-    align-items: flex-start;
+  .search-bar .header__container {
+      flex-direction: column;
+      align-items: flex-start;
   }
 
   .search-bar select,
   .search-bar .btn-search {
-    width: 100%;
-    margin-bottom: 10px;
+      width: 100%;
+      margin-bottom: 10px;
   }
 }
